@@ -277,11 +277,6 @@
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
-    <!-- Default value for proximity check on screen wake
-         NOTE ! - Enable for devices that have a fast response
-         proximity sensor (ideally < 300ms) -->
-    <bool name="config_proximityCheckOnWake">true</bool>
-
     <!-- Is the device capable of hot swapping an ICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
@@ -418,4 +413,17 @@
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
 
+    <!-- Proximity check on screen on -->
+    <bool name="config_proximityCheckOnWake">true</bool>
+
+    <!-- Proximity check timeout -->
+    <integer name="config_proximityCheckTimeout">100</integer>
+
+    <!-- Proximity check on screen on default -->
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <bool name="config_fingerprintRemoveClientOnCancel">true</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
